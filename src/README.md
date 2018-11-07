@@ -1,1 +1,1 @@
-This is source code for browser extensions to help CM Υogi reclaim his original name "Ajay Mohan Bisht". It automatically replace all occurences of Mr. Ajay's fake name back to his authentic name, on any website you visit.
+This is source code for browser extensions to help CM Υogi reclaim his original name "Ajay Mohan Bisht". It automatically replace all occurrences of Mr. Ajay's fake name back to his authentic name, on any website you visit.
