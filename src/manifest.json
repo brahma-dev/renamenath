@@ -1,0 +1,35 @@
+{
+    "name": "Renamenath",
+	"author": "Ajay Mohan Bisht",
+    "description": "Reverses all renames done by Ajay Mohan Bisht",
+    "version": "1.1",
+	"manifest_version": 2,
+	"background": {
+        "scripts": ["browser-polyfill.js"],
+        "persistent":true
+	},
+	"permissions": [
+        "tabs",
+        "http://*/*",
+        "https://*/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+	"applications": {
+		"gecko": {
+			"id": "ajay@mohan.bisht"
+		}
+	},
+	"icons": {
+		"128": "images/guard-128.png"
+	}
+}

@@ -1,0 +1,1 @@
+This Chrome extension reverses all renames done by Ajay Mohan Bisht
