@@ -2,7 +2,7 @@
 	"name": "Renamenath",
 	"author": "Ajay Mohan Bisht",
 	"description": "Reverses all renames done by Ajay Mohan Bisht",
-	"version": "1.6",
+	"version": "1.6.1",
 	"manifest_version": 2,
 	"background": {
 		"scripts": ["browser-polyfill.js"],
